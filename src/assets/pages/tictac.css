@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+#bodydiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#border {
+  display: flex;
+  flex-wrap: wrap;
+  width: 310px;
+  height: 310px;
+}
+.cube {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
